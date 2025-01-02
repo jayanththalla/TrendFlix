@@ -13,6 +13,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp"),
+    require('@tailwindcss/typography'),
+  ],
   darkMode: "class",
 };
