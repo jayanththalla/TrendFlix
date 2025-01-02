@@ -2,7 +2,6 @@
 import {MdLightMode} from 'react-icons/md';
 import { BsFillMoonFill } from 'react-icons/bs';
 import { useTheme } from 'next-themes';
-import { use } from 'react';
 import { useEffect,useState } from 'react';
 
 export default function DarkModeSwitch() {
